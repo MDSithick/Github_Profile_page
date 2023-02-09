@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+   
+    <style>
+      
+      .heading{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 40px;
+        background-color: #374140;
+      }
+
+      .head{
+        color: #fff;
+      }
+      
+      .innerboxs{
+        display: grid;
+        grid-template-columns:35% 65%; 
+
+      }
+      .Rbox{
+        background-color: #383430;
+        width: auto;
+        margin: 40px 30px 20px 50px;
+        border-radius: 12px;
+        height:600px;
+       
+        
+
+      }
+      .Lbox{
+        width: fit-content;
+        padding: 40px;
+        margin: 20px 20px 0 60px;
+
+      }
+      input[type="text"]{
+        background-color: #383430;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+        width: 80%;
+
+      }
+      
+      .Sbox{
+        height: 150px;
+        width: 200px;
+        background-color: #383430;
+        margin: 10px 40px 20px 10px;
+        display: grid;
+        display: inline-block;
+        border-radius: 10px;
+       }
+
+      .Bbox{
+        background-color: #383430;
+        min-height: 200px;
+        margin-top: 49px;
+        border-radius: 15px;
+      }
+      input[placeholder="search"]{
+        font-size: 25px;
+        font-family: sans-serif;
+      }
+      @media only screen and (max-width: 991px) {
+          .innerboxs {
+           display: block;
+          }
+          .Rbox, .Lbox {
+          width: 100%;
+          margin: 0;
+           }
+      }
+      
+
+    </style>
+
+</head>
+<body>
+  <div class="parentdiv">
+
+    <div class="heading">
+      <img src="image/github3.jpg" alt="giticon" width="60px">
+      <span class="head">GITHUB</span>
+    </div>
+
+    <div class="innerboxs">
+
+      <div class="Rbox"></div>
+
+    <div class="Lbox">
+     <div> <input type="text" placeholder="search"></div>
+      <div class="Sbox"></div>
+      <div class="Sbox"></div>
+      <div class="Sbox"></div>
+      <div class="Bbox"></div>
+      
+    </div>
+
+    </div>
+
+
+  </div>
+</body>
+</html>
